@@ -36,18 +36,6 @@ pip install -r requirements.txt
         You can download the .pbmm and .scorer files from this link: DeepSpeech Model & Scorer.
     After downloading, place the deepspeech-0.9.3-models.pbmm and deepspeech-0.9.3-models.scorer files in the models directory within your project folder.
 
-# Your project folder structure should look like this:
-
-   /audio-video-transcription
-    ├── input_files/            # Place your input audio or video files here
-    ├── models/                 # Place DeepSpeech model files here
-    │   ├── deepspeech-0.9.3-models.pbmm
-    │   └── deepspeech-0.9.3-models.scorer
-    ├── output_files/           # Output JSON, audio, and subtitle files
-    ├── main.py                 # Python script to run the transcription and subtitle generation
-    ├── requirements.txt        # List of Python dependencies
-    ├── README.md               # Project description and setup instructions
-    └── LICENSE                 # MIT License (or other license you choose)
 
 # Install ffmpeg:
   Follow the instructions on the official website to install ffmpeg.
